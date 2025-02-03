@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Parkinsans:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+body {
+    color: whitesmoke;
+    background-color: black;
+    font-family: "Parkinsans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 4000;
+    font-style: normal;
+    font-size: 16px;
+}
+a {
+    color: whitesmoke;
+    text-decoration: 0;
+}
+img {
+    max-width: 100%;
+}
+.logo img {
+    width: 27px;
+    padding-left: 15px;
+}
+.container {
+    width: 1600px;
+    margin: 0 auto;
+}
+header {
+    padding: 50px 0;
+    padding-bottom: 50px;
+}
+header .logo {
+    text-transform: uppercase;
+    font-size: 29px;
+    font-weight: 700;
+}
+header nav {
+    float: right;
+    width: 50%;
+}
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+header nav ul li {
+    display: inline-block;
+}
+header nav ul li:not(.btn) a:hover {
+    border-bottom: 5px solid  rgb(13, 117, 56);
+    border-radius: 5px;
+    transition: all 300ms ease;
+}
+.main {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    position: relative;
+}
+.main--info {
+    width: 600px;
+    padding-top: 20px;
+}
+.main h1 {
+    font-size: 40px;
+    font-weight: 700;
+}
+.main p {
+    width: 1000px;
+    padding-top: 10px;
+    font-weight: 500;
+    line-height: 140%;
+}
+.main img {
+    position: absolute;
+    width: 550px;
+    right: 0;
+    top: 200;
+    border-radius: 25px;
+}
+.main--name--office {
+    position: absolute;
+    top: 600;
+    right: 182;
+}
+.hero {
+    margin-top: 50px;
+    background-color: rgb(13, 117, 56);
+    border-radius: 15%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    position: relative;
+    color: whitesmoke;
+}
+.hero--info {
+    padding-left: 70px;
+    width: 515px;
+    padding-top: 20px;
+}
+.hero--info h2 {
+    font-size: 40px;
+    font-weight: 800;
+}
+.hero--info p {
+    font-weight: 500;
+    line-height: 140%;
+    font-weight: 600;
+}
+.main .btn {
+    background: rgb(13, 117, 56);
+    border-radius: 50px;
+    width: 160px;
+    text-align: center;
+    margin-top: 15px;
+    transition: all 500ms ease;
+    padding: 15px;
+}
+.main .btn:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.hero img {
+    position: absolute;
+    top: 200px;
+    right: 100;
+    width: 750px;
+}
+.name-general {
+    position: absolute;
+    top: 700px;
+    right: 350;
+    font-weight: 600;
+}
+.luck {
+    margin-top: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    position: relative;
+}
+.luck--name {
+    padding-left: 70px;
+    width: 515px;
+    padding-top: 20px;
+}
+.luck .p1 {
+    text-align: center;
+    padding-bottom: 25px;
+    width: 60%;
+}
+.luck img {
+    position: absolute;
+    top: 300px;
+    right: 50;
+    width: 35%;
+    border-radius: 25px;
+}
+.luck h2 {
+    padding-bottom: 50px;
+    font-size: 50;
+    text-align: center;
+}
+.luck {
+    font-weight: 600;
+}
+.luck l {
+    margin-top: 25px;
+    float: left;
+    width: 24%;
+    position: relative;
+}
+.luck .last {
+    float: left;
+    width: 24%;
+    padding-top: 50px;
+    padding-bottom: 500px;
+}
+.luck nav {
+    float: right;
+    width: 75%;
+}
+.luck nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.luck nav ul li{
+    display: inline-block;
+    width: 350px;
+}
+.list  {
+    padding: 15px;
+    color: whitesmoke;
+    flex-direction: column;
+    width: 300px;
+    background-color: rgb(13, 117, 56);
+    border-radius: 25px;
+    margin-bottom: 150px;
+    font-weight: 500;
+    font-size: 17px;
+}
+.services {
+    font-weight: 600;
+    color: black;
+    text-align: right;
+    margin-top: 500px;
+    position: relative;
+    height: 1600px;
+    width: 1400px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 25px;
+}
+.services p {
+    padding-left: 25px;
+    padding-top: 75px;
+    position: absolute;
+    text-align: left;
+    width: 500px;
+}
+.services h2 {
+    padding-top: 25px;
+    position: absolute;
+    text-align: center;
+    padding-left: 75px;
+    font-size: 40;
+}
+.services img {
+    position: absolute;
+    padding-left: 250px;
+    border-radius: 25px;
+}
+.services ul {
+    top: 350;
+    position: absolute;
+    color: black;
+    text-align: left;
+    border-radius: 25px;
+    padding: 35px;
+    width: 900px;
+}
+.youtube {
+    position: absolute;
+    width: 225px;
+    top: 475;
+    margin-left: 500px;
+}
+.gmail {
+    position: absolute;
+    width: 225px;
+    top: 675;
+    margin-left: 500px;
+}
+.maps {
+    position: absolute;
+    width: 225px;
+    top: 975;
+    margin-left: 500px;
+}
+.drive {
+    position: absolute;
+    width: 225px;
+    top: 1300;
+    margin-left: 500px;
+}
+.fut {
+    padding-top: 15px;
+    font-weight: 600;
+    color: whitesmoke;
+    text-align: left;
+    margin-top: 50px;
+    position: relative;
+    height: 330px;
+    width: 815px;
+    background-color: rgb(13, 117, 56);
+    border-radius: 25px;
+    padding-left: 25px;
+    right: 290;
+    margin-bottom: 70px;
+}
+.fut h2 {
+    text-align: center;
+}
+.fut img {
+    position: absolute;
+    bottom: 15;
+    left: 850;
+    height: 315px;
+    width: 615px;
+    border-radius: 25px;
+}
+footer {
+    padding: 5px;
+    background-color: rgb(22, 22, 22);
+    text-align: center;
+}
